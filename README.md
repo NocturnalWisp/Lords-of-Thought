@@ -12,3 +12,4 @@ The purpose of this Github is to share those stories with the world, anyone can 
 
 **Tools**
 We are using https://github.com/Tyrrrz/DiscordChatExporter to export the stories.
+http://htmlpreview.github.io/ To see html page.
