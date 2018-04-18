@@ -1,0 +1,372 @@
+<!-- https://github.com/Tyrrrz/DiscordChatExporter -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lords of Thought - fantasy</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<style>body {
+    background-color: #36393E;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #0096CF;
+    text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+
+div.pre {
+    background-color: #2F3136;
+    color: rgb(131, 148, 150);
+    font-family: Consolas, Courier New, Courier, Monospace;
+    margin-top: 4px;
+    padding: 8px;
+    white-space: pre-wrap;
+}
+
+span.pre {
+    background-color: #2F3136;
+    font-family: Consolas, Courier New, Courier, Monospace;
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: pre-wrap;
+}
+
+div#info {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+}
+
+div#log {
+     max-width: 100%;
+}
+
+img.guild-icon {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+div.info-right {
+    flex: 1;
+    margin-left: 10px;
+}
+
+div.guild-name {
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+div.channel-name {
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+div.channel-topic {
+    margin-top: 2px;
+    color: #FFFFFF;
+}
+
+div.channel-messagecount {
+    margin-top: 2px;
+}
+
+div.msg {
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.msg-left {
+    height: 40px;
+    width: 40px;
+}
+
+img.msg-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+div.msg-right {
+    flex: 1;
+    margin-left: 20px;
+    min-width: 50%;
+}
+
+span.msg-user {
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+span.msg-date {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .75em;
+    margin-left: 5px;
+}
+
+span.msg-edited {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .8em;
+    margin-left: 5px;
+}
+
+div.msg-content {
+    font-size: .9375em;
+    padding-top: 5px;
+    word-wrap: break-word;
+}
+
+div.msg-attachment {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+img.msg-attachment {
+    max-height: 500px;
+    max-width: 50%;
+}
+
+img.emoji {
+    height: 24px;
+    width: 24px;
+    vertical-align: -.4em;
+}
+
+span.mention {
+    font-weight: 600;
+}</style>
+</head>
+<body>
+<div id="info">
+<div class="info-left">
+<img class="guild-icon" src="https://cdn.discordapp.com/icons/435968075230085131/29d457d6140f9acdc6f458c43ce06571.png" />
+</div>
+<div class="info-right">
+<div class="guild-name">Lords of Thought</div>
+<div class="channel-name">fantasy</div>
+<div class="channel-topic"></div>
+<div class="channel-messagecount">19 messages</div>
+</div>
+</div>
+<div id="log">
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/254359750765051907/7359b1a38d73a8fbe12ee4b65c1c70fa.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Nocturnal Wisp#1376">Nocturnal Wisp</span>
+<span class="msg-date">17-Apr-18 08:46 PM</span>
+<div class="msg-content">
+In a small village there lived a gnome.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/3.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Pigeonhead#1718">Pigeonhead</span>
+<span class="msg-date">17-Apr-18 09:14 PM</span>
+<div class="msg-content">
+Now when i say &quot;small village&quot; i&#39;m not being general. The village of Mushcap was just that, nestled snugly in the mossrotten wood of an old oak.<span class="msg-edited" title="17-Apr-18 09:15 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/254359750765051907/7359b1a38d73a8fbe12ee4b65c1c70fa.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Nocturnal Wisp#1376">Nocturnal Wisp</span>
+<span class="msg-date">18-Apr-18 08:55 AM</span>
+<div class="msg-content">
+That gnome lived alone, his only friends were Zona and Harry, but his mother only let him see them after sunset.<span class="msg-edited" title="18-Apr-18 08:56 AM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/262667790073200640/0b0713dc0e137c35cc825a893c52a6d2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Voltspeed#8003">Voltspeed</span>
+<span class="msg-date">18-Apr-18 03:31 PM</span>
+<div class="msg-content">
+<a href="https://drive.google.com/file/d/0B1RG-jFBN_cgV0RFT2ZFU01qamhHbWFuQUowTFdtVnNsSkZV/view?usp=drivesdk">https://drive.google.com/file/d/0B1RG-jFBN_cgV0RFT2ZFU01qamhHbWFuQUowTFdtVnNsSkZV/view?usp=drivesdk</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/254359750765051907/7359b1a38d73a8fbe12ee4b65c1c70fa.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Nocturnal Wisp#1376">Nocturnal Wisp</span>
+<span class="msg-date">18-Apr-18 03:33 PM</span>
+<div class="msg-content">
+The gnome&#39;s sweet abode near the forest of Xoren looked out upon the land<span class="msg-edited" title="18-Apr-18 03:33 PM">(edited)</span></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/4.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Master#5079">Master</span>
+<span class="msg-date">18-Apr-18 03:34 PM</span>
+<div class="msg-content">
+Suddenly a wolf jumped behind him</div>
+<div class="msg-content">
+Growling and raging</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/254359750765051907/7359b1a38d73a8fbe12ee4b65c1c70fa.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Nocturnal Wisp#1376">Nocturnal Wisp</span>
+<span class="msg-date">18-Apr-18 03:34 PM</span>
+<div class="msg-content">
+Pulling out his dagger he prepared himself for a fierce battle.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/4.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Master#5079">Master</span>
+<span class="msg-date">18-Apr-18 03:35 PM</span>
+<div class="msg-content">
+But he lost</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/254359750765051907/7359b1a38d73a8fbe12ee4b65c1c70fa.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Nocturnal Wisp#1376">Nocturnal Wisp</span>
+<span class="msg-date">18-Apr-18 03:35 PM</span>
+<div class="msg-content">
+and as the narrative failed to be descriptive the wolf leaped at the gnome and completely missed flying off the cliff.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/4.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Master#5079">Master</span>
+<span class="msg-date">18-Apr-18 03:36 PM</span>
+<div class="msg-content">
+But then a hungry perhaps angered dragon flew over him, looking for food. And spotted him.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/254359750765051907/7359b1a38d73a8fbe12ee4b65c1c70fa.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Nocturnal Wisp#1376">Nocturnal Wisp</span>
+<span class="msg-date">18-Apr-18 03:37 PM</span>
+<div class="msg-content">
+Running into his house, the gnome called for his mother, he must escape quick with a few of his belongings.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/4.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Master#5079">Master</span>
+<span class="msg-date">18-Apr-18 03:40 PM</span>
+<div class="msg-content">
+Too late the dragon diving down with surprising speed, landed in front of the house and picked him up.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/254359750765051907/7359b1a38d73a8fbe12ee4b65c1c70fa.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Nocturnal Wisp#1376">Nocturnal Wisp</span>
+<span class="msg-date">18-Apr-18 03:41 PM</span>
+<div class="msg-content">
+Whipping him around and completely destroying the house his mother comes out with a long sword.</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/4.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Master#5079">Master</span>
+<span class="msg-date">18-Apr-18 03:42 PM</span>
+<div class="msg-content">
+The dragon looks at his mother carelessly and stomps on her</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/254359750765051907/7359b1a38d73a8fbe12ee4b65c1c70fa.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Nocturnal Wisp#1376">Nocturnal Wisp</span>
+<span class="msg-date">18-Apr-18 03:43 PM</span>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/435973549707100170/436280530267275275/2Q.png">
+<img class="msg-attachment" src="https://cdn.discordapp.com/attachments/435973549707100170/436280530267275275/2Q.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/262667790073200640/0b0713dc0e137c35cc825a893c52a6d2.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Voltspeed#8003">Voltspeed</span>
+<span class="msg-date">18-Apr-18 03:44 PM</span>
+<div class="msg-attachment">
+<a href="https://cdn.discordapp.com/attachments/435973549707100170/436280941464387584/Dawn_Music.mp3">
+Attachment: Dawn_Music.mp3 (2.2 MB)
+</a>
+</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/embed/avatars/4.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Master#5079">Master</span>
+<span class="msg-date">18-Apr-18 03:44 PM</span>
+<div class="msg-content">
+For a second the air seemed to freeze</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/254359750765051907/7359b1a38d73a8fbe12ee4b65c1c70fa.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="Nocturnal Wisp#1376">Nocturnal Wisp</span>
+<span class="msg-date">18-Apr-18 03:45 PM</span>
+<div class="msg-content">
+Then the dragon was immediately launched upward dropping the gnome and knocking him out...</div>
+</div>
+</div>
+</div>
+</body>
+</html>
