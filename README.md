@@ -7,4 +7,8 @@ Thank you for showing an interest in our project. Our goal is to help people com
 **What is it?**
 People take turns adding to stories. This allows for creative ideas to flow, and if one person gets stuck, others are there to fill in!
 
-**Purpose of the Github** The purpose of this Github is to share those stories with the world, anyone can use, modify, and change things according to the license specified under this repository, feel free to use what is made!
+**Purpose of the Github** 
+The purpose of this Github is to share those stories with the world, anyone can use, modify, and change things according to the license specified under this repository, feel free to use what is made!
+
+**Tools**
+We are using https://github.com/Tyrrrz/DiscordChatExporter to export the stories.
